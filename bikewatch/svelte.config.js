@@ -12,7 +12,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/6.C85_lab_bikeWatch'
+			relative: true
 		}
 	}
 };
